@@ -1,0 +1,5 @@
+{
+  "name": "Fichaje de Conserjes",
+  "description": "Una aplicación para que los conserjes fichen su entrada y salida, con un panel de administración para gestionar usuarios y ver informes. Todos los datos se guardan localmente en su navegador.",
+  "requestFramePermissions": []
+}
