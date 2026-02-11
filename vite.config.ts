@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Importante para que funcione en subcarpetas de GitHub Pages
+  base: './',
 });

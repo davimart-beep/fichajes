@@ -21,5 +21,6 @@ export const getClient = () => {
 export const saveConfig = (url: string, key: string) => {
     localStorage.setItem('SUPABASE_URL', url);
     localStorage.setItem('SUPABASE_ANON_KEY', key);
-    window.location.reload();
+    // Forzamos una recarga limpia al root
+    window.location.href = window.location.pathname;
 };
